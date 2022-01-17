@@ -1,4 +1,4 @@
-//GreaterNum
+//1.1.1	What number's bigger?
 // const greaterNum = (a, b) => {
 //     const result = a - b > 0 ? a : b
 
@@ -19,9 +19,28 @@
 
 // }
 
-// helloWorld("de")
 
-// Grading
+// function helloWorld(lang = "en") {
+//     if (lang === "es"){
+//         console.log("Hola Mundia!")
+//     }else if (lang === "de"){
+//         console.log("Hallo die Welt!")
+//     }else if (lang === "en"){
+//         console.log("Hello World!")
+//     }else {
+//         console.log("Unknown Language!")
+//     }
+// } 
+
+//1.1.2	The World Translator
+
+// helloWorld()
+// helloWorld("es")
+// helloWorld("de")
+// helloWorld("en")
+// helloWorld("afgh")
+
+//1.1.3	The Grade Assigner / 1.1.7	The Grade Assigner2
 
 // const assignGrade = (score) => {
 //     if (score >= 90){
@@ -52,16 +71,26 @@
 
 // }
 
-// plurize("tree", 3)
+// 1.1.4	The Pluralizer
 
-// Odd-Even
+// function plurizer(str, num) {
+//     if (num >0 && str !== "sheep" && str !== "fish" && str !== "geese") {
+//         console.log(`${num} ${str}s`)
+//     }else {
+//         console.log(`${num} ${str}`)
+//     }
+// }
+
+// plurizer("sheep", 5)
+
+// 1.1.5	The even/odd reporter
 // const evenOdd = (num) => 
 //     num % 2 === 0 ? console.log("Even Number") : console.log("Odd Number")
 
 // evenOdd(7)
 
 
-// Multiplication Tables
+//1.1.6	Multiplication Tables
 
 // const multiply = () => {
 //     for (i = 0; i <= 10 ; i++){
@@ -76,7 +105,7 @@
 
 // multiply()
 
-// Choises
+// 1.1.8	Your top choices
 // const choises = ["red", "yellow", "blue"];
 
 // const printChoise = (color) =>
@@ -86,7 +115,7 @@
 
 // printChoise("blue")
 
-// The Word Guesser
+// 2.1.1	The Word guesser
 
 // const arr = ["_", "_", "_"];
 // const answer = ["F", "O", "X"];
@@ -130,11 +159,112 @@ const guessLetter = (letter) => {
     })
     
 }
-    
-
-
 document.getElementById("arr").innerHTML = output
 
+2.1.2	The Calculator
+
+function calculateAll(num) {
+    
+        var half = num / 2
+        console.log(`The half of ${num} is ${half}`)
+    
+        var square = Math.pow(num, 2)
+        area = (Math.PI * num * num).toFixed(2)
+        console.log(`The result of squaring ${num} is ${square}`)
+    
+        var area = (Math.PI * num * num).toFixed(2)
+        console.log(`The area for a circle with radius ${num} is ${area}`)
+    
+        var per = (num * area / 100).toFixed(2)
+        console.log(`${num} is %${per} of ${area}`)
+    
+}
+
+calculateAll(5)
+
+// 2.1.3	DrEvil
+
+// function drEvil (amount) {
+//     if(amount !== 1000000) {
+//         console.log(`${amount} dollar`)
+//     }else {
+//         console.log(`${amount} dollar (pinky)`)
+//     }
+// }
+
+// drEvil(10);
+// drEvil(1000000);
+
+// 2.1.4	MixUp
+
+// function mixUp(str1, str2) {
+//     var firstTwo1 = [str1[0] + str1[1]]
+//     var secondTwo2 = [str2[0] + str2[1]]
+//     str1 = secondTwo2 + str1.substr(2)
+//     str2 = firstTwo1 + str2.substr(2)
+//     console.log(str1, str2)
+// }
+
+// mixUp("Kayhan", "ööaa")
+
+// 2.1.5	FixStart
+
+// function fixStart(str) {
+
+//     var str = str.split("")
+//     const len = str.length
+
+//     var newStr = str[0];
+//     for (i = 1; i < 6; i++) {
+//         if (str[0] === str[i]) {
+//             newStr += "*"
+
+//         } else {
+//             newStr += str[i]
+
+//         }
+
+//     }
+
+//     console.log(newStr)
+// }
+
+// fixStart("atakan")
+
+
+
+//2.1.6	Verbing
+
+// function verbing(str) {
+//     if(str.length < 3) {
+//         str = str
+//     }
+//     else if (str.includes("ing")) {
+//         str = str + "ly"
+//     }
+//     else {
+//         str = str + "ing"
+//     }
+//     return str
+// }
+
+// console.log(verbing("reading"))
+
+
+// 2.1.7	Not Bad
+
+
+// function notBad(str) {
+//     if(str.includes("not") && str.indexOf("not") < str.indexOf("bad")) {
+//        str = str.slice(0, str.indexOf("not"))
+//        console.log()
+//        return str = str + "good"
+//     }else {
+//         return str
+//     }
+// }
+
+// console.log(notBad("This play is not as bad as yesterday!"))
 
 
 
