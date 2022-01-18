@@ -6,19 +6,7 @@
 // }
 // greaterNum(10,3)
 
-// The World Translator
-
-// const helloWorld = (lang) => {
-//     if (lang === "es") {
-//         console.log("Ola Mundo")
-//     } else if (lang === "de") {
-//         console.log("Hallo die Welt")
-//     } else {
-//         console.log("Hello World")
-//     }
-
-// }
-
+//1.1.2	The World Translator
 
 // function helloWorld(lang = "en") {
 //     if (lang === "es"){
@@ -32,13 +20,8 @@
 //     }
 // } 
 
-//1.1.2	The World Translator
 
-// helloWorld()
-// helloWorld("es")
-// helloWorld("de")
-// helloWorld("en")
-// helloWorld("afgh")
+
 
 //1.1.3	The Grade Assigner / 1.1.7	The Grade Assigner2
 
@@ -58,7 +41,7 @@
 
 // assignGrade(89)
 
-// Plurize
+// 1.1.4	The Pluralizer
 
 // const plurize = (str, num) => {
 //     if (str !== "sheep" && str !== "geese"){
@@ -70,18 +53,6 @@
 //     console.log(`${num} ${plural}`)
 
 // }
-
-// 1.1.4	The Pluralizer
-
-// function plurizer(str, num) {
-//     if (num >0 && str !== "sheep" && str !== "fish" && str !== "geese") {
-//         console.log(`${num} ${str}s`)
-//     }else {
-//         console.log(`${num} ${str}`)
-//     }
-// }
-
-// plurizer("sheep", 5)
 
 // 1.1.5	The even/odd reporter
 // const evenOdd = (num) => 
