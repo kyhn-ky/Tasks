@@ -1,3 +1,4 @@
+//1.1	Aufwärm Übung 1 & 2
 // var  student = {
 //     name : "Kayhan Kaya",
 //     class : "A101",
@@ -12,6 +13,7 @@
 
 // console.log(student)
 
+//1.3	Aufwärm Übung 3
 
 // var library = [ 
 //     {
@@ -36,7 +38,7 @@
 
 //1.4	Aufwärm Übung 4 anlamadım...
 
-// The Sum of a Range
+// 1.5	The sum of a range
 
 // var num = new Array();
 
@@ -61,7 +63,7 @@
 
 // newArray(2, 15, 3);
 
-// Reversing an array
+// 1.6	Reversing an array
 
 // const num = [1,2,3,4,5,6,7]
 // var newArr = new Array()
@@ -87,6 +89,8 @@
 
 // reverseInPlace(num)
 
+//1.7	A list
+
 // A list yapamadım :(
 
 // const arrayToList = (a, b, c) => {
@@ -106,7 +110,7 @@
 
 // arrayToList(10,20)
 
-// The Recipe
+// 1.9	The Recipe Card
 
 // const recipe = {
 //     title: "Mole",
@@ -121,7 +125,7 @@
 // console.log(recipe.ingredients[1])
 // console.log(recipe.ingredients[2])
 
-// The Reading List
+// 1.10	The Reading List
 
 const list = [
     {
@@ -152,7 +156,7 @@ const book = (arr) => {
 
 book(list)
 
-// The Movie Database
+// 1.11	The Movie Database
 
 const favMovie = {
     title: "AI",
