@@ -1,4 +1,4 @@
-// Fortune Teller
+// 1.1	The Fortune Teller
 
 // var numberKid = [3, 0, 4]
 // var partnerName = ["Kemal", "Oksan", "Tayyip"]
@@ -16,7 +16,7 @@
 //         " and married to " + partnerName[randomInt(0, job.length)] + " with " + numberKid[randomInt(0, job.length)] + " kids")
 // }
 
-// Age Calculator
+// 1.2	The Age Calculator
 
 
 
@@ -32,7 +32,7 @@
 // calculateAge(1988,1989)
 
 
-// Lifetime Supply Calculator
+//1.3	The Lifetime Supply Calculator
 
 // const calculateSupply = (age, amount) => {
 //     const maxAge = 80;
@@ -42,7 +42,7 @@
 
 // calculateSupply(35,1200.123)
 
-//Geometrizer
+//1.4	The Geometrizer
 
 const calcCircumference = (radius) => {
     const circumference = 2 * Math.PI * radius
@@ -59,4 +59,20 @@ const calcArea = (radius) => {
 
 calcCircumference(3)
 calcArea(3)
+
+// 1.5	The Temperature Converter
+
+// function celsiusToFahrenheit(c) {
+//     const fahrenheit = c * 1.8 + 32
+//     return fahrenheit
+// }
+
+// function fahrenheitToCelcius(f) {
+//     const celsius = (f - 32) / 1.8
+//     return celsius
+// }
+
+
+// console.log(celsiusToFahrenheit(35))
+// console.log(fahrenheitToCelcius(64))
     
